@@ -1,0 +1,66 @@
+.full-scrn{
+    background-color: rgb(159, 164, 208);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;   
+    justify-content: center; 
+    height: 96vh;
+    width: auto;
+}
+
+.box{
+    background-color: rgb(12, 12, 24);
+    align-items: center;
+    text-align: center;  
+    border-radius: 12px;
+    
+}
+
+.in-box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 0px;
+    justify-content: space-around;
+}
+
+div{
+    padding: 10px;
+    margin: 2px;
+    
+}
+
+.input{
+    padding-left: px;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: none;
+    padding-left: 30px;
+}
+
+button{
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 15px;
+    border: none;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+h1{
+    color: white;
+}
+label{
+    color: white;
+}
